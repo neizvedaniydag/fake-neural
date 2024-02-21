@@ -2,9 +2,9 @@ from flask import Flask, request, jsonify
 import re
 import string
 import pickle
+import nltk
 from pathlib import Path
 from sklearn.feature_extraction.text import TfidfVectorizer
-import nltk
 from nltk.corpus import stopwords
 
 nltk.download('stopwords')
